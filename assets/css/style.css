@@ -1,0 +1,77 @@
+body {
+	font: normal 14px 'Russo One', sans-serif;
+	font-weight: 300;
+	background-color: #fff;
+	overflow-x: hidden;
+	line-height: 1.5;
+}
+h1,h2,h3,h4{
+	color:#ff0000;
+}
+#parallax {
+	height: 680px;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	background: url('../images/purchase-3090846_1920.jpg') center center no-repeat;
+	background-size: cover;
+	z-index: -100;
+}
+#hero {
+	background: rgba(0, 0, 0, 0);
+	color: #000;
+	margin-top: 40px;
+	padding: 0;
+}
+#hero .lp-element {
+	padding: 150px 50px;
+	background-color: rgba(255, 255, 255, .75);
+}
+#hero h1 {
+	font-size: 60px;
+}
+#hero p.lead {
+	font-size: 1.8em;
+}
+#features {
+	background-color: #FFF;
+}
+.overview h1 {
+	text-transform: uppercase;
+}
+.overview, .service-block {
+	text-align: center;
+}
+.overview .lead {
+	margin: 40px 10%;
+	margin-bottom: 80px;
+}
+.service-block {
+	margin-bottom: 30px;
+}
+.service-block .glyphicon {
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+#image {
+	background-color: #ecf0f1;
+}
+#gallery {
+	background-color: #34495e;
+	color: #FFF;
+	padding-bottom: 70px;
+}
+#gallery img {
+	width: 100%;
+	height: auto;
+}
+#gallery a {
+	margin-bottom: 30px;
+	display: block;
+}
+#gallery a:hover {
+	opacity: .5;
+}
+.faq-block {
+	margin: 0 80px;
+}
