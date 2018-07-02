@@ -12,7 +12,7 @@ $(document).ready(function() {
     /*	Local Scroll
 	================================================== */
 
-    $('.navbar').localScroll({
+    $('#principal').localScroll({
         offset: -80,
         duration: 500
     });
