@@ -1,5 +1,5 @@
 body {
-	font: normal 14px 'Russo One', sans-serif !important;
+	font-family:'Russo One', sans-serif !important;
 	overflow-x: hidden;
 }
 h1,h2,h3,h4{
@@ -33,22 +33,9 @@ h1,h2,h3,h4{
 #features {
 	background-color: #FFF;
 }
-.overview h1 {
-	text-transform: uppercase;
-}
-.overview, .service-block {
-	text-align: center;
-}
 .overview .lead {
 	margin: 40px 10%;
 	margin-bottom: 80px;
-}
-.service-block {
-	margin-bottom: 30px;
-}
-.service-block .glyphicon {
-	font-size: 60px;
-	margin-bottom: 20px;
 }
 #image {
 	background-color: #ecf0f1;
@@ -68,7 +55,4 @@ h1,h2,h3,h4{
 }
 #gallery a:hover {
 	opacity: .5;
-}
-.faq-block {
-	margin: 0 80px;
 }
