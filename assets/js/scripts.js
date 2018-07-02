@@ -55,8 +55,8 @@ $(window).on("load", function() {
 /*	Animation with Waypoints
 ================================================== */
 
-var animate_start = function($this) {
-    $this.find('.animate').each(function(i) {
+function animate_start(element) {
+    element.find('.animate').each(function(i) {
         var $item = jQuery(this);
         var animation = $item.data("animate");
 
