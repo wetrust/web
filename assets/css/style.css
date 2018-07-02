@@ -1,9 +1,10 @@
 body {
-	font-family:'Russo One', sans-serif !important;
+	font-family:'Russo One' !important;
 	overflow-x: hidden;
 }
 h1,h2,h3,h4{
 	color:#ff0000;
+	font-weight: 400;
 }
 #parallax {
 	height: 680px;
