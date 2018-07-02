@@ -27,7 +27,7 @@ $(document).ready(function() {
             var active_link = jQuery('nav a[href="#' + active_section.element.id + '"]');
             $('nav a').parent().removeClass("active");
             active_link.parent().addClass("active");
-            active_section.addClass("active-section");
+            $("#" + active_section.element.id).addClass("active-section");
         },
         context: 'body',
         offset: '35%'
