@@ -20,7 +20,7 @@ $(document).ready(function() {
     /*	Active Menu
 	================================================== */
 
-    var menuWaypoints = $('section').waypoint({
+    $('section').waypoint({
         handler: function(direction) {
             var active_section = $(this);
             if (direction === "up") active_section = active_section.prev();
