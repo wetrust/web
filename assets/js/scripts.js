@@ -30,21 +30,22 @@ $(document).ready(function() {
                 $(i).removeClass("active");
             });
             $('nav a[href="#' + this.element.id + '"]').addClass("active");
-        }
-    });
-
-    $('section').waypoint({
-        handler: function(direction) {
-            var active_section = this;
-            if (direction === "up") active_section = active_section.prev();
-            var active_link = jQuery('nav a[href="#' + active_section.element.id + '"]');
-            $('nav a').parent().removeClass("active");
-            active_link.parent().addClass("active");
-            $("#" + active_section.element.id).addClass("active-section");
         },
-        context: 'body',
         offset: '35%'
     });
+
+    //$('section').waypoint({
+    //    handler: function(direction) {
+    //        var active_section = this;
+    //        if (direction === "up") active_section = active_section.prev();
+    //        var active_link = jQuery('nav a[href="#' + active_section.element.id + '"]');
+    //        $('nav a').parent().removeClass("active");
+    //        active_link.parent().addClass("active");
+    //        $("#" + active_section.element.id).addClass("active-section");
+    //    },
+    //    context: 'body',
+    //    offset: '35%'
+    //});
 
     //jQuery(function() {
     //    var sections = jQuery('section');
