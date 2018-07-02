@@ -29,9 +29,16 @@ $(document).ready(function() {
                 $(val).removeClass("active");
             });
             var active_section = this;
-            if (direction === "up") active_section = $(this.element).prev();
-            $(active_section.element).addClass("active-section");
-            $('nav a[href="#' + active_section.element.id + '"]').addClass("active");
+            if (direction === "up"){
+                active_section = $(this.element).prev();
+                $("#" + active_section[0].id).addClass("active-section");
+                $('nav a[href="#' + active_section[0].id + '"]').addClass("active");
+            }
+            else{
+                $(active_section.element).addClass("active-section");
+                $('nav a[href="#' + active_section.element.id + '"]').addClass("active");
+            }
+            
         },
         offset: '35%'
     });
