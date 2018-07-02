@@ -48,11 +48,6 @@
 
         jQuery('#gallery a').attr('rel', 'prettyPhoto');
         jQuery("a[rel^='prettyPhoto']").prettyPhoto();
-
-        /*	Bootstrap Carousel
-	================================================== */
-
-        jQuery('.carousel').carousel()
     });
 
     jQuery(window).load(function() {
