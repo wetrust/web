@@ -21,6 +21,19 @@ $(document).ready(function() {
 	================================================== */
 
     $('section').waypoint({
+        handler: function() {
+            $('section').each(function(i){
+                $(i).removeClass("active-section");
+            });
+            $(this.element).addClass("active-section");
+            $('nav a').each(function(i){
+                $(i).removeClass("active");
+            });
+            $('nav a[href="#' + this.element.id + '"]').addClass("active");
+        }
+    });
+
+    $('section').waypoint({
         handler: function(direction) {
             var active_section = this;
             if (direction === "up") active_section = active_section.prev();
