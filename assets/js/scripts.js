@@ -22,12 +22,12 @@ $(document).ready(function() {
 
     $('section').waypoint({
         handler: function() {
-            $('section').each(function(i){
-                $(i).removeClass("active-section");
+            $('section').each(function(i, val){
+                $(val).removeClass("active-section");
             });
             $(this.element).addClass("active-section");
-            $('nav a').each(function(i){
-                $(i).removeClass("active");
+            $('nav a').each(function(i, val){
+                $(val).removeClass("active");
             });
             $('nav a[href="#' + this.element.id + '"]').addClass("active");
         },
