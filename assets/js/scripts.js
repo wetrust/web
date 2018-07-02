@@ -29,8 +29,8 @@ $(document).ready(function() {
                 $(val).removeClass("active");
             });
             var active_section = this;
-            if (direction === "up") active_section = active_section.previous();
-            $(this.element).addClass("active-section");
+            if (direction === "up") active_section = $(this.element).prev();
+            $(active_section.element).addClass("active-section");
             $('nav a[href="#' + active_section.element.id + '"]').addClass("active");
         },
         offset: '35%'
