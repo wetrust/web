@@ -6,7 +6,7 @@ $(document).ready(function() {
     $(window).on('scroll', function(e) {
         var scrollPosition = $(window).scrollTop();
         $('#parallax').css('top', (0 - (scrollPosition * 0.3)) + 'px'); // bg image moves at 30% of scrolling speed
-        $('#hero').css('opacity', ((100 - scrollPosition / 2) * 0.01));
+        $('#heroText').css('opacity', ((100 - scrollPosition / 2) * 0.01));
     });
 
     /*	Local Scroll
