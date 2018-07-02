@@ -41,7 +41,7 @@ h1,h2,h3,h4{
 	background-color: #ecf0f1;
 }
 #gallery {
-	background-image: url(https://cdn4.uvnimg.com/04/ce/7d6fe77…/iStock_000014437157_Medium.jpg);
+	background-image: url("../images/gallery.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
