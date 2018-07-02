@@ -44,7 +44,7 @@ $(document).ready(function() {
     $("a[rel^='prettyPhoto']").prettyPhoto();
 });
 
-$(window).load(function() {
+$(window).on("load", function() {
 
     $('.section').each(function() {
         animate_start($(this));
