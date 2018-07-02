@@ -76,7 +76,7 @@ function animate_start(element) {
                 jQuery(this).removeClass(animation + ' animated');
             });
         }, {
-            offset: '40%',
+            offset: '90%',
             triggerOnce: true
         });
     });
