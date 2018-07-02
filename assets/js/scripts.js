@@ -50,7 +50,7 @@
         jQuery("a[rel^='prettyPhoto']").prettyPhoto();
     });
 
-    jQuery(window).load(function() {
+    $(window).load(function() {
 
         $('.section').each(function() {
             animate_start($(this));
