@@ -21,15 +21,17 @@ $(document).ready(function() {
 	================================================== */
 
     $('section').waypoint({
-        handler: function() {
+        handler: function(direction) {
             $('section').each(function(i, val){
                 $(val).removeClass("active-section");
             });
-            $(this.element).addClass("active-section");
             $('nav a').each(function(i, val){
                 $(val).removeClass("active");
             });
-            $('nav a[href="#' + this.element.id + '"]').addClass("active");
+            var active_section = this;
+            if (direction === "up") active_section = active_section.prev();
+            $(this.element).addClass("active-section");
+            $('nav a[href="#' + active_section.element.id + '"]').addClass("active");
         },
         offset: '35%'
     });
