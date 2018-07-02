@@ -43,40 +43,8 @@ $(document).ready(function() {
         offset: '35%'
     });
 
-    //$('section').waypoint({
-    //    handler: function(direction) {
-    //        var active_section = this;
-    //        if (direction === "up") active_section = active_section.prev();
-    //        var active_link = jQuery('nav a[href="#' + active_section.element.id + '"]');
-    //        $('nav a').parent().removeClass("active");
-    //        active_link.parent().addClass("active");
-    //        $("#" + active_section.element.id).addClass("active-section");
-    //    },
-    //    context: 'body',
-    //    offset: '35%'
-    //});
-
-    //jQuery(function() {
-    //    var sections = jQuery('section');
-    //    var navigation_links = jQuery('nav a');
-    //    sections.waypoint({
-    //        handler: function(direction) {
-    //            var active_section;
-    //            active_section = jQuery(this);
-    //            if (direction === "up") active_section = active_section.prev();
-    //            var active_link = jQuery('nav a[href="#' + active_section.attr("id") + '"]');
-    //            navigation_links.parent().removeClass("active");
-    //            active_link.parent().addClass("active");
-    //            active_section.addClass("active-section");
-    //        },
-    //        offset: '35%'
-    //    });
-    //});
-
     /*	Pretty Photo
     ================================================== */
-
-    $('#gallery a').attr('rel', 'prettyPhoto');
     $("a[rel^='prettyPhoto']").prettyPhoto();
 });
 
