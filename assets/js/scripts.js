@@ -29,7 +29,7 @@ $(document).ready(function() {
                 $(val).removeClass("active");
             });
             var active_section = this;
-            if (direction === "up") active_section = active_section.prev();
+            if (direction === "up") active_section = active_section.previous();
             $(this.element).addClass("active-section");
             $('nav a[href="#' + active_section.element.id + '"]').addClass("active");
         },
