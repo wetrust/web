@@ -75,7 +75,7 @@
 						<a class="nav-link" href="#faq">Preguntas</a>
 					</li>
 					<li class="nav-item">
-						<button type="button" class="btn btn-danger"><i class="fas fa-phone-volume"></i> Contáctanos</button>
+						<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#llamada"><i class="fas fa-phone-volume"></i> Contáctanos</button>
 					</li>
 				</ul>
 			</div>
@@ -328,6 +328,21 @@
 			</div>
 		</div>
 	</section>
+	<div class="modal fade" id="llamada" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <h5 class="modal-title" id="exampleModalLabel">Solicitud de llamada gratuita</h5>
+			  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			  </button>
+			</div>
+			<div class="modal-body embed-responsive embed-responsive-1by1">
+				<iframe class="embed-responsive-item" src="https://docs.google.com/forms/d/e/1FAIpQLSdp5bL3xnbzFkmKb9Tr7HF0BUlVeD8Qvp1DWeBGm-bQH8NSvA/viewform?embedded=true">Cargando...</iframe>
+			</div>
+		  </div>
+		</div>
+	</div>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>
