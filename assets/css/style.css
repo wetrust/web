@@ -37,22 +37,19 @@ h1,h2,h3,h4{
 .overview .lead {
 	margin-bottom: 80px;
 }
-#image {
-	background-color: #ecf0f1;
-}
-#gallery {
+#clientes {
 	background-image: url("../images/gallery.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-#gallery img {
+#clientes img {
 	width: 100%;
 	height: auto;
 }
-#gallery a {
+#clientes a {
 	margin-bottom: 30px;
 	display: block;
 }
-#gallery a:hover {
+#clientes a:hover {
 	opacity: .5;
 }
