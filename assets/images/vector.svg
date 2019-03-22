@@ -5,11 +5,35 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg4430"
    version="1.1"
-   viewBox="0 0 208 216"
-   height="216mm"
-   width="208mm">
+   viewBox="0 0 207 215"
+   height="215mm"
+   width="207mm"
+   sodipodi:docname="vector.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1299"
+     inkscape:window-height="713"
+     id="namedview11"
+     showgrid="false"
+     inkscape:zoom="0.28908179"
+     inkscape:cx="393.07087"
+     inkscape:cy="408.18898"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4430" />
   <defs
      id="defs4424">
     <clipPath
@@ -17,7 +41,8 @@
        clipPathUnits="userSpaceOnUse">
       <path
          id="path162"
-         d="m 9997.04,6942.49 v -2930 c 0,-19.3 -15.7,-35 -34.99,-35 h -4430 c -19.3,0 -35,15.7 -35,35 v 2930 c 0,19.3 15.7,35 35,35 h 4430 c 19.29,0 34.99,-15.7 34.99,-35" />
+         d="m 9997.04,6942.49 v -2930 c 0,-19.3 -15.7,-35 -34.99,-35 h -4430 c -19.3,0 -35,15.7 -35,35 v 2930 c 0,19.3 15.7,35 35,35 h 4430 c 19.29,0 34.99,-15.7 34.99,-35"
+         inkscape:connector-curvature="0" />
     </clipPath>
   </defs>
   <metadata
@@ -33,7 +58,7 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(0,-81)"
+     transform="translate(0,-82)"
      id="layer1">
     <g
        transform="matrix(0.0749059,0,0,-0.0749059,-541.6896,603.6907)"
@@ -44,7 +69,8 @@
         <path
            d="m 7521.67,7401.83 c -426.39,-236.94 -310.25,-604.04 -91.66,-750.43 309.64,-207.38 477.84,-91.56 369.7,-665.11 -36.71,-194.73 2.3,-411.15 140.92,-558.94 99.71,-106.3 246.87,-168.89 392.22,-158.1 80.86,6.01 158.48,33.39 238.36,47.27 79.88,13.89 167.88,12.48 234.7,-33.43 64.37,-44.21 97.47,-121.75 114.6,-197.94 41.2,-183.22 5.82,-378.41 63.68,-558.46 48.77,-151.76 162.3,-304.4 308.27,-373.34 191.07,-90.25 416.62,-40.45 609.01,19.28 225.63,70.06 435.83,186.68 620.13,334 236,188.73 430.1,426.79 584.9,686.34 137.8,231.06 246.3,482.63 290.4,748.04 69.7,419.75 -26.1,1025.5 -524.6,1120.11 -235.8,44.77 -391.1,-19.19 -505.9,-83.14 -177.3,-98.77 -257.9,-197.54 -389.54,104.2 -129.73,297.45 -568.33,646.69 -1072.33,187.95 -263.13,-239.5 -461.06,-100.04 -677.52,39.43 -198.17,127.67 -411.87,255.35 -705.34,92.27"
            style="fill:#f7f7f7;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           id="path166" />
+           id="path166"
+           inkscape:connector-curvature="0" />
       </g>
     </g>
   </g>
